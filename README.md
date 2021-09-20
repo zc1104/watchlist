@@ -1,2 +1,2 @@
-# watchlist
-**This project is a just for practicing.**
+# **watchlist**
+**This project is just for practicing.**
