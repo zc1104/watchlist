@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for
 app = Flask(__name__)
 
 
@@ -17,7 +17,7 @@ def index():
     return render_template('index.html', name=name, movies=movies)
 
 
-name = 'Grey Li'
+name = 'CHEN'
 movies = [
     {'title': 'My Neighbor Totoro', 'year': '1988'},
     {'title': 'Dead Poets Society', 'year': '1989'},
